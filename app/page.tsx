@@ -1,9 +1,9 @@
-import Hero from "./components/3components/hero";
+import { Navbar } from "./components/4components/navbar";
 
 export default function Home() {
   return (
-    <div className="flex  h-screen justify-center bg-neutral-900">
-      <Hero />
+    <div className="">
+      <Navbar />
     </div>
   );
 }
