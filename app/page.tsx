@@ -1,9 +1,9 @@
-import { Navbar } from "./components/4components/navbar";
+import DarkMode from "./components/5components/dark-mode";
 
 export default function Home() {
   return (
-    <div className="">
-      <Navbar />
+    <div className="bg-background text-foreground flex h-screen w-screen items-center justify-center">
+      <DarkMode />
     </div>
   );
 }
