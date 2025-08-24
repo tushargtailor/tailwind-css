@@ -206,19 +206,6 @@
   --foreground: var(--color-neutral-950);
 }
 
-@theme {
-  --animate-marquee: marquee 10s linear infinite;
-
-  @keyframes marquee {
-    from {
-      transform: translateX(-100%);
-    }
-    to {
-      transform: translateX(100%);
-    }
-  }
-}
-
 .dark {
   --background: var(--color-neutral-950);
   --foreground: var(--color-neutral-50);
@@ -230,3 +217,17 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-mono);
 }
+
+/* 
+@theme {
+  --animate-marquee: marquee 10s linear infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+} */

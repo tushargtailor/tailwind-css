@@ -1,10 +1,10 @@
-import DarkMode from "./components/5components/dark-mode";
+import { Grid } from "./components/6components/grid";
 
 export default function Home() {
   return (
-    <div className="bg-background text-foreground flex h-screen w-screen items-center justify-center">
-      <DarkMode />
-    </div>
+    <section>
+      <Grid />
+    </section>
   );
 }
 
