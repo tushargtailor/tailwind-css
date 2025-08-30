@@ -1,10 +1,10 @@
-import { Grid } from "./components/6components/grid";
+import { Icomponent } from "./components/7components/Icomponent";
 
 export default function Home() {
   return (
-    <section>
-      <Grid />
-    </section>
+    <main className="mx-auto flex h-screen max-w-4xl items-center">
+      <Icomponent />
+    </main>
   );
 }
 
