@@ -1,9 +1,9 @@
-import { Form } from "./components/8components/form";
+import { SVGLines } from "./components/9components/svg-line";
 
 export default function Home() {
   return (
-    <main className="mx-auto flex h-screen max-w-4xl flex-col items-center">
-      <Form />
+    <main className="mx-auto flex h-screen max-w-4xl flex-col items-center bg-gray-50 py-20">
+      <SVGLines />
     </main>
   );
 }
